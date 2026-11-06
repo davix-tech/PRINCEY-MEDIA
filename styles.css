@@ -159,3 +159,9 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:.92}
 }
 @media(max-width:380px){.hero__meta{align-items:flex-start;flex-direction:column}.hero__loc{padding-left:1rem}.hero__name{font-size:24vw}.site-footer{display:grid;grid-template-columns:1fr 1fr}.site-footer>*:nth-child(even){text-align:right}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* A clear next step after the service overview. */
+.services__cta{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-top:2rem;padding:1.5rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.services__cta>p{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.4rem)}
+.services__cta .textlink{flex-shrink:0}
+@media(max-width:820px){.services__cta{align-items:flex-start;flex-direction:column;gap:1rem}}
